@@ -1,0 +1,63 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+/* html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+body {
+    background-color: green;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: white;
+    margin: 20px 0;
+}
+
+
+table {
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 600px;
+    padding: 10px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.tanhim {
+    font-weight: 400;
+    text-align: left;
+}
+
+td.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+caption {
+    color: white;
+    caption-side: bottom;
+}
+
+
+img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    padding: 10px;
+    border: 3px solid green;
+
+}
